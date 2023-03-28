@@ -1,3 +1,3 @@
 public interface CanAttack {
-    public void attacca();
+    abstract public void attacca();
 }

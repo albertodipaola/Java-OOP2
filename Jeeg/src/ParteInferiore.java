@@ -1,3 +1,3 @@
-public abstract class ParteInferiore {
-    abstract public void move(String direzione);
+abstract public class ParteInferiore {
+    abstract public void muovi(String direzione);
 }

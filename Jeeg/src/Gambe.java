@@ -1,5 +1,8 @@
 public class Gambe extends ParteInferiore {
-    public void move(String direzione){
-        System.out.println("Mi sto muovendo in "+direzione);
+
+    @Override
+    public void muovi(String direzione) {
+        System.out.println("Mi muovo a "+direzione);
     }
+    
 }
